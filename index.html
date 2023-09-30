@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <title>Time Organizer</title>
+</head>
+<body>
+    <form action="">
+        <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+            <span class="input-group-text bg-primary" id="inputGroup-sizing-lg">Matter And Description</span>
+            </div>
+            <input type="text" class="form-control" id="matter">
+            <input type="text" class="form-control" id="description">
+
+            <div class="input-group-append">
+                <button class="btn btn-outline-primary btn-lg" type="button" onclick="btn()">Save</button>
+            </div>
+        </div>
+        <button class="btn btn-outline-primary btn-lg gen" type="button" onclick="gen(list)">Generate</button>
+    </form>
+    <div class="output-div" id="outputDiv">
+        <h2 id = "outputText"></h2>
+    </div>
+    <script src="css/bootstrap.min.css.map"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

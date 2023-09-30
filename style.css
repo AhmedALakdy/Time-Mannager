@@ -1,0 +1,21 @@
+
+form{
+    margin: auto;
+    margin-top: 10%;
+}
+.input-group-text {
+    line-height: 2 !important;
+}
+
+
+.btn-group-lg>.btn, .btn-lg {
+    padding-right: 52px !important;
+    padding-left: 50px !important;
+}
+.gen{
+    display:flex !important;
+    margin: auto !important;
+    margin-top: 20px !important;
+    
+}
+.output>p
